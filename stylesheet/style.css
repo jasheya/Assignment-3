@@ -25,6 +25,18 @@
    .carousel-item img{
     height: 100%;
    }
+   /* mobile device course card */
+   .mob-course{
+    width: 100%;
+    height: 50%;
+   }
+   .mob-course img{
+    width: 100%;
+    height: 100%;
+   }
+   article{
+    padding-top: 3rem;
+   }
    }
 /* other device banner slide */
 @media screen and (min-width: 550px) {
