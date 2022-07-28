@@ -1,0 +1,37 @@
+.slider-size{
+    margin: 5% 12% 9% 9%;
+    width: auto;
+}
+/* background overlay */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+} 
+/* mobile device banner slide */
+@media screen and (max-width: 500px) {
+   .carousel-item{
+    height: 175px;
+   }
+   .carousel-caption{
+    height: 100%;
+   } 
+   .carousel-item img{
+    height: 100%;
+   }
+   }
+/* other device banner slide */
+@media screen and (min-width: 550px) {
+   .carousel-caption{
+    padding-bottom: 18%;
+   }
+}
+
+
+
